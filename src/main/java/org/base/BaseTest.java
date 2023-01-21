@@ -19,7 +19,7 @@ public class BaseTest {
     }
     @BeforeMethod(alwaysRun = true,description = "Opening base URL")
     public void setUp(){
-        Selenide.open("https://www.google.com");
+        Selenide.open("https://www.saucedemo.com/");
     }
     @AfterMethod(alwaysRun = true,description = "Web Driver cleanup")
     public void cleanWebDriver(){ //ми будем очищати наш веб драйвер після кожного тесту
