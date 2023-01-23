@@ -19,7 +19,13 @@ public class BaseTest {
     }
     @BeforeMethod(alwaysRun = true,description = "Opening base URL")
     public void setUp(){
-        Selenide.open("https://www.saucedemo.com/");
+//        Selenide.open("https://www.saucedemo.com/");
+//        Selenide.open("https://www.amazon.com/");//для тестування амазону
+//        Selenide.open("https://www.stats.govt.nz/large-datasets/csv-files-for-download/");
+        Selenide.open("https://ps.uci.edu/~franklin/doc/file_upload.html");
+        // https://www.stats.govt.nz/large-datasets/csv-files-for-download/ - URL TO DOWNLOAD FILE
+//    https://ps.uci.edu/~franklin/doc/file_upload.html - URL TO UPLOAD FILE
+        //    https://ps.uci.edu/~franklin/doc/file_upload.html - URL TO UPLOAD FILE
     }
     @AfterMethod(alwaysRun = true,description = "Web Driver cleanup")
     public void cleanWebDriver(){ //ми будем очищати наш веб драйвер після кожного тесту
