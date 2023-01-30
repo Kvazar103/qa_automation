@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16643679-0709-49a4-a645-18594ebbd8fe" name="Changes" comment="init" />
+    <list default="true" id="16643679-0709-49a4-a645-18594ebbd8fe" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/WaitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/BaseTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -20,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson2" />
+        <entry key="$PROJECT_DIR$" value="lesson3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,24 +52,23 @@
       <recent name="$PROJECT_DIR$/src/main/resources/files" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FirstTest.test">
-    <configuration name="All in qa_automation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.base.Main" />
       <module name="qa_automation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testPackage in qa_automation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in qa_automation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa_automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testPackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testPackage" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitTest.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qa_automation" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +112,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testPackage" />
-      <option name="MAIN_CLASS_NAME" value="testPackage.SecondTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.WaitTest" />
+      <option name="METHOD_NAME" value="testMethod" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.WaitTest.testMethod" />
         <item itemvalue="TestNG.FirstTest.test" />
         <item itemvalue="TestNG.FirstTest" />
         <item itemvalue="JUnit.All in qa_automation" />
-        <item itemvalue="JUnit.testPackage in qa_automation" />
-        <item itemvalue="TestNG.SecondTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +144,9 @@
       <workItem from="1673815169387" duration="9748000" />
       <workItem from="1673936302240" duration="7739000" />
       <workItem from="1674325401458" duration="15492000" />
+      <workItem from="1674502403083" duration="414000" />
+      <workItem from="1674534614925" duration="4604000" />
+      <workItem from="1674828416466" duration="3911000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1673872595524</created>
@@ -169,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674466277265</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="init">
+      <created>1674502487453</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674502487453</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
